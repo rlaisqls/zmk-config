@@ -12,8 +12,8 @@ manifest:
     #   revision: main
     #   import: app/west.yml
     - name: zmk
-      remote: zmk
-      revision: main
+      url: https://github.com/sky-bro/zmk
+      revision: k4i-sweep-kbd
       import: app/west.yml
   self:
     path: config
